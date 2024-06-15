@@ -1,0 +1,26 @@
+logging:
+  level:
+    org:
+      springframework: info
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+currency-service:
+  url: http://qa.in28minutes.com
+  username: qaarunusername
+  key: dqaarunkey
+
+##this is coming from enviroment variable set by using edit configuration of intellij
+some:
+  other:
+    configurationvalue: qaValue
