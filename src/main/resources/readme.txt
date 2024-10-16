@@ -6,3 +6,5 @@ HAL Browser
 http://localhost:8080
 
 http://localhost:8080/h2-console
+
+https://www.jetbrains.com/help/idea/using-git-integration.html
